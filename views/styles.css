@@ -1,0 +1,66 @@
+
+.box{
+	width: 300px;
+	padding: 40px;
+	position: absolute;
+	top: 45%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+	}
+.box h1{
+	color: aquax;
+	text-transform: uppercase;
+	font-family:gray serif;
+	font-weight: 40;
+	}
+.box input[type = "text"],.box input[type = "number"],.box input[type = "email"],.Rent,.box input[type ="datetime-local"]{ 
+	border:0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border: 2px solid #3498db;
+	padding: 14px 10px;
+	width: 200px;
+	outline: none;
+	color: black;
+	font-size: 15px;
+	border-radius: 24px;
+	transition: 0.25s;
+	}
+.box input[type = "text"]:focus,.box input[type = "number"]:focus,.box input[type = "email"]:focus,.Rent:focus,.box input[type ="datetime-local"]:focus{
+	width: 280px;
+	border-color: #11B98F;
+	}
+	.box input[type ="submit"]{
+	border:0;
+	background: none;
+	display: block;
+	margin: 15px auto;
+	text-align: center;
+	border: 2px solid #11B98F;
+	padding: 14px 40px;
+	outline: none;
+	color: black;
+	font-size: 18px;
+	border-radius: 20px;
+	transition: 0.25s;
+	cursor: pointer;
+	}
+.box input[type = "submit"]:hover{
+	background: #11B98F;
+	color: white;
+    }
+.textArea{
+    font-size: x-large;
+    text-align: center;
+    color:black;
+    text-decoration: bold;
+    
+}
+body{
+    background-color:cornsilk;
+    background-repeat:no-repeat;
+    background-size: cover;
+}
